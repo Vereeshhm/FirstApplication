@@ -13,7 +13,7 @@ class WhatsappApplicationTests {
 
 
    @Test
-    public void contextLoads() {
+     void contextLoads() {
 	}
 
 }
