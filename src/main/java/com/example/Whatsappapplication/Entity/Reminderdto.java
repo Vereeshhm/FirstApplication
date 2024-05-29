@@ -5,19 +5,19 @@ import java.text.SimpleDateFormat;
 
 import javax.validation.constraints.Pattern;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
 
-@javax.persistence.Entity
-@javax.persistence.Table(name="loandetailss")
+
+
+@jakarta.persistence.Entity
+@jakarta.persistence.Table(name="loandetailss")
 public class Reminderdto {
 
     @Id
-	@javax.persistence.GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	
 	private String mobile_no;
 	

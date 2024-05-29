@@ -1,20 +1,15 @@
 package com.example.Whatsappapplication.Entity;
 
-import javax.annotation.Generated;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import jakarta.persistence.GenerationType;
 
-@Entity
-@Table(name="insurancetb1")
+@jakarta.persistence.Entity
+@jakarta.persistence.Table(name="insurancetb1")
 public class insurancedto {
 
 	
 	
-	@Id
-	@GeneratedValue(strategy =GenerationType.IDENTITY)
+	@jakarta.persistence.Id
+	@jakarta.persistence.GeneratedValue(strategy =GenerationType.IDENTITY)
 	
 	private String mobile_no;
 	

@@ -8,21 +8,22 @@ import java.time.format.DateTimeFormatter;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Pattern;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import jakarta.persistence.Column;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
 
 
-@javax.persistence.Entity
-@javax.persistence.Table(name="loandetailss")
+
+
+
+@jakarta.persistence.Entity
+@jakarta.persistence.Table(name="loandetailss")
 public class Saswatdto {
 
 	@Id
-	@javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	
 	
 

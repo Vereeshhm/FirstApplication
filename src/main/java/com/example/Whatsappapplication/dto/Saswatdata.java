@@ -1,19 +1,19 @@
 package com.example.Whatsappapplication.dto;
 
-import javax.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
-import javax.persistence.Table;
-
-@Entity
-@Table(name="loandata")
+@jakarta.persistence.Entity
+@jakarta.persistence.Table(name="loandata")
 public class Saswatdata {
 
 	
 	
 
 	
-	@javax.persistence.Id
-	@javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.IDENTITY)
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	
 	private int id;
 	
